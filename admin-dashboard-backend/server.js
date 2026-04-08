@@ -16,7 +16,7 @@ const app = express();
 app.use(express.json());
 
 // Add your frontend URL here
-const FRONTEND_URL = "https://idyllic-sunburst-2db6ff.netlify.app";
+const FRONTEND_URL = "https://eclectic-otter-5c83f7.netlify.app";
 
 // Configure CORS options
 const corsOptions = {
