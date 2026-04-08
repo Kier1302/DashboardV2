@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 const originalFetch = window.fetch;
-const API_BASE_URL = 'https://dashboardqa-new.onrender.com'; // Set your live backend URL here
+const API_BASE_URL = 'https://dashboardv2-4.onrender.com'; // Set your live backend URL here
 
 window.fetch = function(input, init) {
   console.log('Original URL:', input); // Log original URL
